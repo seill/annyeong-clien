@@ -1,0 +1,21 @@
+# IDE files
+.idea
+
+# macOS files
+.DS_Store
+
+# Build files
+annyeong-clien
+
+# Output files
+annyeong-clien.json
+images/
+
+# Logs
+*.log
+
+# Chrome Driver
+chromedriver
+
+# Makefile
+Makefile

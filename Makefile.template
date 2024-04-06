@@ -1,0 +1,18 @@
+build:
+	go build .
+
+archive:
+	mkdir -p images
+	./annyeong-clien archive <id> <password>
+
+delete:
+	./annyeong-clien delete <id> <password>
+
+clean:
+	rm -f annyeong-clien
+
+clean-output:
+	rm -f annyeong-clien.json
+	rm -f images/*
+
+all: clean build archive
