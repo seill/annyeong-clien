@@ -144,7 +144,7 @@ func (s *CrawlerService) Archive(id *string, password *string) (err error) {
 	listMyArticleLink = []string{}
 	listMyArticle = []Article{}
 
-	for pageIndex := 0; pageIndex < 1; pageIndex++ {
+	for pageIndex := 0; ; pageIndex++ {
 		var urlMyArticle string
 		var myArticleContainerElement selenium.WebElement
 		var listMyArticleElement []selenium.WebElement
